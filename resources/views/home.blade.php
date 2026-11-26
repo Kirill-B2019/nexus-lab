@@ -1,0 +1,17 @@
+@extends('layouts.app')
+
+@section('body')
+    @include('partials.hero')
+    @include('partials.marquee')
+    @include('partials.mission')
+    @include('partials.principles')
+    @include('partials.modules')
+    @include('partials.services')
+    @include('partials.audience')
+    @include('partials.business-model')
+    @include('partials.tech-stack')
+    @include('partials.roadmap')
+    @include('partials.metrics')
+    @include('partials.risks')
+    @include('partials.cta')
+@endsection
